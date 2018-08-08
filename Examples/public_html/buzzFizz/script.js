@@ -19,9 +19,10 @@ var myOutput="";
 
 for(var i=1; i<=100; i++){
 	if(i % 3===0){
-		myOutput+="Fizz ";
+		//NOTE: I'm leaving the i var in so you can see what is being sent out.
+		myOutput+= i + "=Fizz, " ;
 	}else if(i % 5===0){
-		myOutput+="Buzz ";
+		myOutput+= i + "=Buzz, " ;
 	}
 	
 document.getElementById("buzzFizzOut").innerHTML=myOutput || i;
