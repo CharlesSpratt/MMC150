@@ -19,9 +19,9 @@ var myOutput="";
 
 for(var i=1; i<=100; i++){
 	if(i % 3===0){
-		myOutput+="Fizz" + "<br />";
+		myOutput+="Fizz ";
 	}else if(i % 5===0){
-		myOutput+="Buzz" + "<br />";
+		myOutput+="Buzz ";
 	}
 	
 document.getElementById("buzzFizzOut").innerHTML=myOutput || i;
