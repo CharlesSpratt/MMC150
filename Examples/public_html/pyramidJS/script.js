@@ -5,8 +5,10 @@
 	document.getElementById("pyramid").innerHTML=line;
 }*/
 
+//Students are encouraged to also look at the following W3Schools URL: https://www.w3schools.com/js/tryit.asp?filename=tryjs_loop_for_ex
 var theText="";
 var line="#";
+
 for(var i=0; i<8; i++){
 	line.length<8;
 	line+="#";
